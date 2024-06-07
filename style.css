@@ -74,7 +74,7 @@ nav .logo span {
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: #062a4b8f;
+    background-color: #cfcdcdd3;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0  10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -595,6 +595,7 @@ b {
     padding: 40px 20px;
     box-shadow: 6px 6px 12px #bababa, -6px -6px 12px #ffff;
     width: 70%;
+    background-color: #e1e1e1;
 
 }
 
@@ -607,7 +608,7 @@ b {
     outline: none;
     border-radius: 20px;
     box-shadow: inset 6px 6px 12px #bababa, inset -6px -6px 12px #fff;
-    background-color: #afa8a8;
+    background-color: #cfcdcd;
     font-size: 1em;
     font-weight: bold;
 }
@@ -631,7 +632,7 @@ b {
     box-shadow: inset 6px 6px 12px #bababa, inset -6px -6px 12px #fff;
     padding: 10px;
     border-radius: 20px;
-    background-color: #afa8a8;
+    background-color: #cfcdcd;
     outline: none;
     font-size: 1em;
     font-weight: bold;
