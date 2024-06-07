@@ -170,23 +170,24 @@ nav .logo span {
 .outer::before {
     content: "";
     position: absolute;
-    top: -85%;
-    left: -45%;
-    width: 420px;
-    height: 620px;
+    top: -300px;
+    left: -300px;
+    width: 450px;
+    height: 450px;
     background: linear-gradient(36deg, #fa87df, #fa87df);
     transform-origin: bottom right;
     animation: animate 8s linear infinite ;
     animation-delay: -4s;
 }
 
+
 .outer::after {
     content: "";
     position: absolute;
-    top: -85%;
-    left: -45%;
-    width: 420px;
-    height: 620px;
+    top: -300px;
+    left: -300px;
+    width: 450px;
+    height: 450px;
     background: linear-gradient(36deg, #18a3e4, #18a3e4);
     transform-origin: bottom right;
     animation: animate 8s linear infinite ;
@@ -377,8 +378,8 @@ b {
 .big-g::before {
     content: "";
     position: absolute;
-    top: -50%;
-    left: -50%;
+    top: -350px;
+    left: -280px;
     width: 420px;
     height: 620px;
     background: linear-gradient(36deg, #fa87df, #fa87df);
@@ -390,8 +391,8 @@ b {
 .big-g::after {
     content: "";
     position: absolute;
-    top: -50%;
-    left: -50%;
+    top: -350px;
+    left: -280px;
     width: 420px;
     height: 620px;
     background: linear-gradient(36deg, #18a3e4, #18a3e4);
@@ -445,7 +446,7 @@ b {
     box-shadow: 6px 6px 12px #bababa, -6px -6px 12px #ffff;
     padding: 0.2rem 2rem;
     border-radius: 0.5rem;   
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .about .main ~ a {
@@ -508,53 +509,6 @@ b {
 .progress-bar h4 {
     font-size: 0.9rem;
     font-weight: 500;
-}
-
-.container, .progress-bar:nth-child(1) circle {
-    fill: none;
-    stroke-width: 20px;
-    stroke: url(#gradientcolor);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 450;
-    animation: ht 2.5s linear forwards;
-}
-
-
-.container, .progress-bar:nth-child(2) circle {
-    stroke-width: 20px;
-    stroke: #fa87df;
-    stroke-dasharray: 450;
-    stroke-dashoffset: 450;
-    animation: cs 2.5s linear forwards;
-}
-
-
-.container, .progress-bar:nth-child(3) circle {
-    stroke-width: 20px;
-    stroke: #fa87df;
-    stroke-dasharray: 450;
-    stroke-dashoffset: 450;
-    animation: js 2.5s linear forwards;
-}
-
-@keyframes ht {
-    100% {
-        stroke-dashoffset: 45;
-    }
-}
-
-
-@keyframes cs {
-    100% {
-        stroke-dashoffset: 98;
-    }
-}
-
-
-@keyframes js {
-    100% {
-        stroke-dashoffset: 145;
-    }
 }
 
 .project {
